@@ -1,0 +1,10 @@
+What is the size of the file?
+What is the image base address?
+How many resources existing in the file?
+What is the size of the file?
+When the file has been created?
+How many sections exists in the file?
+What is the subsystem of the PE?
+What is the entry point?
+What is the OS?
+
