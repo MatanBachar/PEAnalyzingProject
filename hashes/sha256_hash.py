@@ -11,7 +11,7 @@ class SHA256Hash(hash.Hash):
         self.hash_func = hashlib.sha256()
 
     def hash(self, filepath):
-        buf_size = 65536  # lets read stuff in 64kb chunks!
+        buf_size = 65536  # reading stuff in 64kb chunks
         with open(filepath, 'rb') as exe_file:
             while True:
                 data = exe_file.read(buf_size)
